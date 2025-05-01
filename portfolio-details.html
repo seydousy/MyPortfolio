@@ -98,7 +98,7 @@
       <div class="social-links d-flex justify-content-center">
         <a href="https://x.com/NourouSy66?t=9pG9oR5t5TfanlGePFaFyw&s=08" target="_blank"><i class="bi bi-twitter-x"></i></a>
         <a href="#" target="_blank"><i class="bi bi-facebook"></i></a>
-        <a href="#" target="_blank"><i class="bi bi-instagram"></i></a>
+        <a href="https://github.com/seydousy" target="_blank"><i class="bi bi-github"></i></a>
         <a href="https://www.linkedin.com/in/seydou-nourou-sy-657255247?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank"><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="container mt-3">
@@ -168,7 +168,51 @@
           "Interface Flask avec affichage des prédictions"
         ],
         "githubLink": "https://github.com/seydousy/Reconnaissance_Images_Satellitaires"
+      },
+      "reconnaissance": {
+        "title": "Reconnaissance Faciale MLP",
+        "image": "assets/img/portfolio/mlp_img.jpg",
+        "description":
+        `<p>🧠 Système de Reconnaissance Faciale par MLP</p>
+         <p>Ce système utilise un réseau de neurones MLP (Perceptron Multi-Couches) pour reconnaître 
+          des visages humains à partir de photos, sans utiliser de réseaux convolutifs (CNN). 
+          Il a été entraîné sur une version filtrée du dataset LFW (Labeled Faces in the Wild).</p>
+         <p>   🔍 Le modèle est capable d’identifier 5 personnes célèbres, choisies car elles sont 
+          les plus représentées dans le dataset :</p>
+         <p>🇺🇸 George W. Bush</p>
+         <p>🇺🇸 Colin Powell</p>
+         <p>🇺🇸 Donald Rumsfeld</p>
+         <p>🇬🇧 Tony Blair</p>
+         <p>🇩🇪 Gerhard Schröder</p>
+         `,
+        "features": [
+          "Classification automatique des visages parmi 5 identités",
+          "Utilisation du dataset LFW (Labeled Faces in the Wild)",
+          "Modèle d'apprentissage profond entièrement connecté (MLP)",
+          "Entraînement sur le dataset LFW (Labeled Faces in the Wild)",
+          "Utilisation de PyTorch pour le modèle et Flask pour l'interface",
+          "Prédiction en temps réel avec affichage du niveau de confiance",
+          "Interface Flask avec affichage des prédictions"
+        ],
+        "githubLink": "https://github.com/seydousy/mlp_faciale_recognition.git"
+      },
+      "afrikaEnergyPredict": {
+        "title": "AfrikaEnergyPredict",
+        "image": "assets/img/portfolio/afrika_energy_predict.jpg",
+        "description": 
+        `<p>Ce projet vise à modéliser et prédire la demande énergétique dans différents pays africains en utilisant des données démographiques, économiques et géographiques.</p>
+          <p>Grâce à un modèle de Gradient Boosting, nous identifions les régions prioritaires pour l’installation d’infrastructures solaires et aidons à la planification énergétique durable.</p>
+          <p>Cette approche permet aux décideurs d’allouer plus efficacement les ressources énergétiques et d’anticiper les besoins futurs.</p>
+          <p>♻️ Impact : Renforcer l'accès à une énergie fiable en Afrique, soutenir le développement durable et améliorer la résilience énergétique des populations.</p>
+        `,
+        "features": [
+          "Modélisation avec Gradient Boosting",
+          "Analyse des variables influentes sur la demande énergétique",
+          "Visualisations interactives et rapport d’insights"
+        ],
+        "githubLink": "https://github.com/seydousy/AfrikaEnergyPredict.git"
       }
+
     };
 
     const params = new URLSearchParams(window.location.search);
